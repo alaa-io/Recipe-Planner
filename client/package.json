@@ -1,0 +1,43 @@
+{
+  "name": "material-ui-nextjs-ts",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --ignore-path .gitignore --write \"**/**/*.+(js|ts|tsx|json)\""
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.4",
+    "@apollo/react-hooks": "^4.0.0",
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "date-fns": "^2.30.0",
+    "graphql-tag": "^2.12.6",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "next": "latest",
+    "next-nprogress-bar": "^2.1.2",
+    "notistack": "^3.0.1",
+    "react": "latest",
+    "react-cookie": "^6.1.1",
+    "react-dom": "latest",
+    "react-multi-date-picker": "^4.3.3",
+    "recoil": "^0.7.7",
+    "zustand": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.199",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "graphql-server-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+  },
+  "keywords": [],
+  "author": "David Anusontarangkul",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.3.3",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "graphql": "^16.8.0",
+    "graphql-tag": "^2.12.6",
+    "graphql-tools": "^9.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/node": "^18.13.0",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "eslint": "^8.57.0",
+    "typescript": "^4.9.5"
+  }
+}
